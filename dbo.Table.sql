@@ -1,0 +1,7 @@
+﻿CREATE TABLE accounts
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [userName] NVARCHAR(25) NOT NULL, 
+    [Password] NVARCHAR(30) NOT NULL, 
+    [Email] NVARCHAR(30) NOT NULL
+)
